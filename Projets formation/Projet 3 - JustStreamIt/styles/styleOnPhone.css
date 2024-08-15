@@ -1,0 +1,294 @@
+@media screen and (max-width: 767px) {
+
+    body {
+        margin-left: 1rem;
+        zoom: 80%;
+    }
+
+    .rectangleHeader {
+        display: flex; 
+        margin-top: 3rem;
+        width: 56rem;
+        height: 10rem;
+        background: #61787F;
+        border: 0.1rem solid black;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .rectangleHeader img {
+        width: 12rem;
+        height: auto;
+        margin-left: 0rem;
+    }
+
+    .rectangleHeader p {
+        color: white;
+        font-size: 4rem;
+        margin-left: 2rem; 
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin-left: 5rem;   
+    }
+
+    .rectangleBestMovie {
+        display: flex;
+        width: 55rem;
+        height: 25rem;
+        border: 0.5rem solid black;
+    }
+
+    .rectangleBestMovie img {
+        width: auto;
+        height: 23rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .elementsBestMovie h2 {
+        margin-left: 3rem;
+        font-size: 3rem;
+    }
+
+    .elementsBestMovie p {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+    }
+
+    .elementsBestMovie button {
+        background-color: red;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 1em;
+        width: 10rem;
+        height: 4rem;
+        margin-left: 25rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        border: 0;
+        cursor: pointer;
+    }
+
+    .categoryBox {
+        display: grid;
+        grid-template-columns: 56rem;
+        grid-template-rows: 56rem 56rem;
+        width: 36rem;
+        height: 112rem;
+    }
+
+    .categoryBoxShowMore {
+        display: grid;
+        grid-template-columns: 56rem;
+        grid-template-rows: 56rem 56rem 56rem 56rem 56rem 56rem;
+        width: 36rem;
+        height: 336rem;
+    }
+
+    .box {
+        position: relative;
+        padding-inline: 7rem;
+        padding-block: 3rem;
+    }
+
+    .hideOnPhone {
+        display: none;
+    }
+
+    .background {
+        
+        display: flex;
+        width: 100%;    
+        height: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);    
+    }
+
+    .rectangleMovie {
+        position: absolute;
+        background-color: rgba(0,0,0,0.5);
+        top: 0;
+        left: 0;
+        margin-top: 8rem;
+        margin-left: 7rem;
+        width: 42rem;
+        height: 25rem;  
+    }
+
+    .rectangleMovie p {
+        color: white;
+        font-size: 4rem;
+        margin-left: 2rem;
+    }
+
+    .rectangleMovie button {
+        position: absolute;
+        background-color: #2D2C2C;
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        border-radius: 1em;
+        width: 10rem;
+        height: 4rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        border: 0;
+        bottom: 0;
+        right: 0;
+        margin: 2em;
+        cursor: pointer;
+    }
+
+    .buttonShowMore {
+        display: block;
+        background-color: red;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 1em;
+        width: 20rem;
+        height: 3rem;
+        margin-left: 17rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        border: 0;
+        cursor: pointer;
+    }
+
+    .hideButtonShowMore {
+        display: none;
+    }
+
+    .labelSelector {
+        font-size: 5rem;
+        font-weight: bold;
+    }
+
+    .selectorButton {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        width: 30rem;
+        height: 4rem;
+        font-size: 3rem;
+        margin-left: 2rem;
+        padding-left: 2rem;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+
+    #modalDetails {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgba(0, 0, 0, 0.4);   
+    }
+
+    #rectangleModalDetails {
+        position: relative;
+        background-color: white;
+        margin-top: 5rem;
+        margin-left: 5rem;
+        width: 45rem;
+        height: auto;
+        padding-top: 1rem;
+        padding-left: 3rem;
+        padding-bottom: 1rem; 
+        border: 8px solid black; 
+        margin-bottom: 10rem;
+    }
+
+    #titleModalDetails {
+        font-size: 5rem;
+        margin-left: 0;
+        width: 38rem;
+    }
+
+    .movieDetails {
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 0.5rem;
+    }
+
+    #directors {
+        font-size: 1.5rem;
+        line-height: 0.5rem;
+    }
+
+    #realizedBy {
+        margin-top: 5rem;
+    }
+
+    #longDescriptionModalDetails {
+        
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        width: 42rem;
+        white-space: normal;
+        }
+
+    #withModalDetails {
+        font-size: 1.5rem;
+        margin-top: 4rem;
+        line-height: 0.5rem;
+    }
+    
+    #actorsModalDetails {
+        font-size: 1.5rem;
+        width: 42rem;
+    }
+
+    #buttonCloseModalDetails {
+        display: none;
+       
+    }
+
+    #imgModalDetails {
+        display: none;  
+    }
+
+    #imgOnTablet {
+        width: 40rem;
+        
+    }
+
+    .cross {
+        position: relative;
+        width: 5rem;
+        height: 5rem;
+        margin-left: 38rem;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+    }
+    .line {
+        position: absolute;
+        width: 0.5rem; 
+        height: 5rem;
+        background-color: red; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg); 
+    }
+    .line::after {
+        content: '';
+        position: absolute;
+        width: 0.5rem; 
+        height: 5rem; 
+        background-color: red;
+        top: 0;
+        left: 0;
+        transform: rotate(90deg);
+    }
+}
+
+
+
+
+
+

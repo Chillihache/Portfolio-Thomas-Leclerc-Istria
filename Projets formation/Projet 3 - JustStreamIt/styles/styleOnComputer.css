@@ -1,0 +1,260 @@
+@media screen and (min-width: 1025px) {
+    
+    body {
+        margin-left: 18rem;
+        zoom: 80%;
+    }
+
+    .rectangleHeader {
+        display: flex; 
+        margin-top: 3rem;
+        width: 85rem;
+        height: 10rem;
+        background: #61787F;
+        border: 0.1rem solid black;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .rectangleHeader img {
+        width: 12rem;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .rectangleHeader p {
+        color: white;
+        font-size: 4rem;
+        margin-left: 5rem; 
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .rectangleBestMovie {
+        display: flex;
+        width: 84.2rem;
+        height: 36rem;
+        border: 0.5rem solid black;
+    }
+
+    .rectangleBestMovie img {
+        width: auto;
+        height: 32rem;
+        margin-left: 3rem;
+        margin-top: 2rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .elementsBestMovie h2 {
+        margin-left: 8rem;
+        font-size: 4rem;
+    }
+
+    .elementsBestMovie p {
+        margin-left: 8rem;
+        margin-right: 5rem;
+        font-size: 2rem;
+    }
+
+    .elementsBestMovie button {
+        background-color: red;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 1em;
+        width: 10rem;
+        height: 4rem;
+        margin-left: 40rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        border: 0;
+        cursor: pointer;
+    }
+
+    .categoryBox {
+        display: grid;
+        grid-template-columns: 28.4rem 28.4rem 28.4rem;
+        grid-template-rows: 28.4rem 28.4rem;
+        width: 85.2rem;
+        height: 56.8rem;
+    }
+
+    .box {
+        position: relative;
+        padding-inline: 4rem;
+        padding-block: 2rem;
+    }
+
+    .background {
+        
+        display: flex;
+        width: 100%;    
+        height: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);  
+    }
+
+    .rectangleMovie {
+        position: absolute;
+        background-color: rgba(0,0,0,0.5);
+        top: 0;
+        left: 0;
+        margin-top: 5rem;
+        margin-left: 4rem;
+        width: 20.4rem;
+        height: 10rem;  
+    }
+
+    .rectangleMovie p {
+        color: white;
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+
+    .rectangleMovie button {
+        position: absolute;
+        background-color: #2D2C2C;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 1em;
+        width: 5rem;
+        height: 2rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        border: 0;
+        bottom: 0;
+        right: 0;
+        margin: 1em;
+        cursor: pointer;
+    }
+
+    .buttonShowMore {
+        display: None;
+    }
+
+    .labelSelector {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
+    .selectorButton {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        width: 30rem;
+        height: 4rem;
+        font-size: 3rem;
+        margin-left: 2rem;
+        padding-left: 2rem;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+
+    .selectorButton option {
+        border: 1px solid black;
+        cursor: pointer;
+    }
+
+    #modalDetails {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgba(0, 0, 0, 0.4);   
+    }
+
+    #rectangleModalDetails {
+
+        background-color: white;
+        margin-top: 10rem;
+        margin-left: 25rem;
+        width: 68rem;
+        height: auto;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-bottom: 1rem; 
+        border: 8px solid black; 
+        margin-bottom: 10rem;
+    }
+
+    #detailsAndImg {
+        display: flex;
+        position: relative;
+        height: 35rem;
+    }
+
+    #titleModalDetails {
+        font-size: 4rem;
+        width: 38rem;
+    }
+
+    .movieDetails {
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 0.5rem;
+    }
+
+    #directors {
+        font-size: 1.5rem;
+        line-height: 0.5rem;
+    }
+
+    #realizedBy {
+        margin-top: 5rem;
+    }
+
+    #imgModalDetails {
+        position: absolute;
+        display: flex;
+        width: auto;
+        height: 30rem;
+        right: 0;
+        margin-top: 2rem;
+        margin-right: 10rem;    
+    }
+
+    #imgOnTablet {
+        display: none;
+    }
+
+    #longDescriptionModalDetails {
+        
+        font-size: 1.5rem;
+        width: 65rem;
+        white-space: normal;
+        }
+
+    #withModalDetails {
+        font-size: 1.5rem;
+        margin-top: 4rem;
+        line-height: 0.5rem;
+    }
+    
+    #actorsModalDetails {
+        font-size: 1.5rem;
+    }
+
+    #buttonCloseModalDetails {
+        background-color: red;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 1em;
+        width: 15rem;
+        height: 3rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        margin-left: 25rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        border: 0;
+        cursor: pointer;
+
+    }
+
+    .cross {
+        display: none;
+    }
+}
